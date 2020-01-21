@@ -2,11 +2,19 @@
 <html>
 <head>
 	<title>input name</title>
-	<script type="text/javascript"></script>
+
 </head>
 <body>
 	firstname: <input id="first" type="text" placeholder="Enter firstname"><br>
-	lastname: <input id="first" type="text" placeholder="Enter firstname"><br>
-	<input id="btn" type="submit">
+	lastname: <input id="last" type="text" placeholder="Enter lastname"><br>
+	<input id="btn" type="submit" name="submit">
+	<script type="text/javascript">
+		document.getElementById('btn').onclick=function(){
+			firstname=document.getElementById('first').value;
+			lastname=document.getElementById('last').value;
+			console.log(firstname+' '+lastname);
+		}
+		
+	</script>
 </body>
 </html>
