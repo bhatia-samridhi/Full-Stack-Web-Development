@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <?php
+include('config.php');
+?>
+<?php
 if(isset($_POST['btn']))
 {
 	echo "Id: ".$_POST['id'];
