@@ -1,9 +1,11 @@
 <?php
-echo 'Welcome'.' '.$_GET['username'];
+echo "Id: ".$_POST['id'];
 echo "<br>";
-echo 'Age:'.$_GET['age'];
+echo "Name: ".$_POST['username'];
 echo "<br>";
-echo 'Contact:'.$_GET['contact'];
+echo 'Age:'.$_POST['age'];
 echo "<br>";
-echo 'Email:'.$_GET['email'];
+echo 'Contact:'.$_POST['contact'];
+echo "<br>";
+echo 'Email:'.$_POST['email'];
 ?>
