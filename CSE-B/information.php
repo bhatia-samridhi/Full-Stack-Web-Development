@@ -8,7 +8,7 @@ include('config.php');
 	<title></title>
 </head>
 <body>
-<form name="Form" action="info.php"  method="post">
+<form name="Form" action="config.php"  method="post">
 		Id: <input type="text" name="id" placeholder="Enter Id"><br>
   		Name: <input type="text" name="username" placeholder="Enter name"><br>
    		Age: <input type="" name="age" placeholder="Enter age"><br>
