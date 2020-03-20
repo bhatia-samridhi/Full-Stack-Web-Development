@@ -8,7 +8,7 @@
 <script type="text/javascript" src="data.js"></script>
 <script type="text/javascript">
   var txt="";
-  var p = prompt("Please enter your name:", "keyword");
+  var p = prompt("Please enter the word you want to search:", "Keyword");
 
   if (p == null || p == "") {
     document.getElementById("abc").innerHTML = "window.close() does'nt work in all browser due to security reason please try in internet explorel";
