@@ -55,28 +55,31 @@ if(x == y)
 {	 
 	alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
 			+ guess + " GUESS " + data);
-	object.addEventListener("reset", form);
+	
 
 } 
 else if(x > y && guess < guesscount)
 {	 
 	guess++; 
 	alert("OOPS SORRY!! TRY A SMALLER NUMBER");
-	object.addEventListener("reset", form); 
+	
 } 
 else if (x < y && guess < guesscount)
 { 
 	guess++; 
 	alert("OOPS SORRY!! TRY A GREATER NUMBER") 
-	object.addEventListener("reset", form);
+	
 } 
 else
 {
 	alert("YOU LOST!!YOUR CHANCES ARE FINISHED")
-	location.reload();
-	object.addEventListener("reset", form);
+	Redirect();
 }
 } 
+function Redirect() 
+{
+    window.location = "game.php";
+}
 </script> 
 </body> 
 </html>					 
