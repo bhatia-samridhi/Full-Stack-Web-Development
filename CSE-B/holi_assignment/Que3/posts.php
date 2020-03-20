@@ -18,7 +18,7 @@
   var str = "";
   for(i=0;i<data.length;i++)
   {
-	  	title = data[i]["title"]; // z algorithm to match keyword from title
+	  	title = data[i]["title"]; 
 	  	var temp = title;
 	  	title = txt + "$"+ title;
 	  	var l = 0;
@@ -58,7 +58,7 @@
    		}
 
    		//body
-   		body = data[i]["body"]; // z algorithm to match keyword from body
+   		body = data[i]["body"]; 
 	  	body = txt + "$"+ body;
 	  	var l = 0;
 	  	var r = 0;
